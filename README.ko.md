@@ -44,11 +44,25 @@ XXD Panel 018는 Codex와 호환 에이전트를 위한 이미지 생성 Skill�
 - **실제 무광 종이:** 섬유, 절단면 두께, 부드러운 접촉 그림자. 독립 다면 조각이나 플라스틱이 아닙니다.
 - **완전한 미세 조판:** 짧은 제목 하나와 2–4개 작은 문구가 종이 가장자리, 윤곽, 축, 여백에 읽기 경로를 만들며 자동 문구는 연도를 쓰지 않습니다.
 
-## 예시 · 곧 추가됩니다
+## 예시 · X에서
 
-저장소에는 향후 예시를 위한 [`assets/examples/`](assets/examples/) 폴더가 마련되어 있습니다. 프로젝트 작성자가 확인한 018 완성작만 추가하며, 그전에는 다른 스타일의 게시물이나 이미지를 자리표시자로 쓰지 않습니다.
+> [샤오샤오둥（@xiaoxiaodong01）](https://x.com/xiaoxiaodong01/status/2090140034926350693) · 2026-08-19<br>
+> GPT2 x 剪纸 x 手工 x 美学提示词 x VOL.018
 
-향후 예시는 018의 적용 범위만 보여 줍니다. 예시의 주제, 은유, 팔레트, 문구, 화면 비율은 생성 참조나 기본값이 되지 않습니다.
+<table>
+  <tr>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090140034926350693"><img src="./assets/examples/sample-01.jpg" alt="XXD Panel 018 예시 1"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090140034926350693"><img src="./assets/examples/sample-02.jpg" alt="XXD Panel 018 예시 2"></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090140034926350693"><img src="./assets/examples/sample-03.jpg" alt="XXD Panel 018 예시 3"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090140034926350693"><img src="./assets/examples/sample-04.jpg" alt="XXD Panel 018 예시 4"></a></td>
+  </tr>
+</table>
+
+<p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090140034926350693">원문 게시물과 전체 프롬프트 보기 →</a></p>
+
+이 예시는 018의 미학적 의도를 보여 줄 뿐이며, 예시의 주제, 구성, 색상, 문구, 이전 캔버스 비율은 생성 참고나 현재 기본값이 되지 않습니다.
 
 ## 네 가지 출력, 하나의 레이어드 페이퍼컷 논리
 
