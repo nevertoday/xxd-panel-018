@@ -1,0 +1,4 @@
+interface:
+  display_name: "XXD Panel 018"
+  short_description: "Create layered paper-cut microtype editorials."
+  default_prompt: "Use $xxd-panel-018 to rebuild my photo as a source-bound minimal layered paper-cut editorial with one visual anchor, a few foreground/midground/background paper layers, warm-ivory space, matte fibre, clear edges, soft contact shadows, source-derived colour roles, and one title plus two to four microtext groups; ask first for modes and copy or locale preferences."
