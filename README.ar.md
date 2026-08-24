@@ -24,6 +24,26 @@ XXD Panel 018 مهارة لتوليد الصور مخصّصة لـ Codex وال�
 
 يبني اختلاف الحجم والمحاور والشكل الموجب والسالب والحجب الأمامي والخلفي والفراغ العاجي الدافئ هرمية واضحة. تتوزع الألوان إلى رئيسي وبنيوي داكن وطبقي فاتح ولمسة صغيرة، وتثبت الألياف المطفأة والحواف الواضحة والسماكة وظلال التماس نعومة الطبقات. ويصنع عنوان قصير مع مجموعتين إلى أربع من النص الدقيق مسار قراءة كاملاً.
 
+## النماذج · من X
+
+> [Xiaoxiaodong (@xiaoxiaodong01)](https://x.com/xiaoxiaodong01/status/2090140034926350693) · 2026-08-19<br>
+> GPT2 x 剪纸 x 手工 x 美学提示词 x VOL.018
+
+<table>
+  <tr>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090140034926350693"><img src="./assets/examples/sample-01.jpg" alt="XXD Panel 018 نموذج 1"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090140034926350693"><img src="./assets/examples/sample-02.jpg" alt="XXD Panel 018 نموذج 2"></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090140034926350693"><img src="./assets/examples/sample-03.jpg" alt="XXD Panel 018 نموذج 3"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090140034926350693"><img src="./assets/examples/sample-04.jpg" alt="XXD Panel 018 نموذج 4"></a></td>
+  </tr>
+</table>
+
+<p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090140034926350693">عرض المنشور الأصلي والتوجيه كاملاً ←</a></p>
+
+تعرض هذه النماذج الدافع الجمالي للإصدار 018 فقط؛ ولا تصبح موضوعاتها أو تكوينها أو ألوانها أو نصوصها أو نسبة اللوحة السابقة مراجع للتوليد أو إعدادات افتراضية حالية.
+
 ## لماذا توجد 018؟
 
 يتحول «أسلوب الأوريغامي» بسهولة إلى CG منخفض المضلعات أو عمل أطفال أو بلاستيك ثلاثي الأبعاد أو تناظر متوسط أو طيور وزهور ورقية عامة تصلح لأي صورة.
@@ -45,26 +65,6 @@ XXD Panel 018 مهارة لتوليد الصور مخصّصة لـ Codex وال�
 - **أدوار لون من المصدر:** رئيسي، وبنيوي داكن، وطبقي فاتح، ولمسة صغيرة جداً.
 - **ورق مطفأ حقيقي:** ألياف وسماكة حافة وظلال تماس، لا نحت متعدد الأوجه ولا بلاستيك.
 - **ميكروتايب كامل:** عنوان قصير و2–4 مجموعات صغيرة تبني مساراً على حواف الورق والمحيط والمحاور والفراغ، ولا يستخدم النص التلقائي سنة.
-
-## النماذج · من X
-
-> [Xiaoxiaodong (@xiaoxiaodong01)](https://x.com/xiaoxiaodong01/status/2090140034926350693) · 2026-08-19<br>
-> GPT2 x 剪纸 x 手工 x 美学提示词 x VOL.018
-
-<table>
-  <tr>
-    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090140034926350693"><img src="./assets/examples/sample-01.jpg" alt="XXD Panel 018 نموذج 1"></a></td>
-    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090140034926350693"><img src="./assets/examples/sample-02.jpg" alt="XXD Panel 018 نموذج 2"></a></td>
-  </tr>
-  <tr>
-    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090140034926350693"><img src="./assets/examples/sample-03.jpg" alt="XXD Panel 018 نموذج 3"></a></td>
-    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090140034926350693"><img src="./assets/examples/sample-04.jpg" alt="XXD Panel 018 نموذج 4"></a></td>
-  </tr>
-</table>
-
-<p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090140034926350693">عرض المنشور الأصلي والتوجيه كاملاً ←</a></p>
-
-تعرض هذه النماذج الدافع الجمالي للإصدار 018 فقط؛ ولا تصبح موضوعاتها أو تكوينها أو ألوانها أو نصوصها أو نسبة اللوحة السابقة مراجع للتوليد أو إعدادات افتراضية حالية.
 
 ## الموجّه الأصلي هو المرجع الجمالي الوحيد
 

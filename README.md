@@ -22,6 +22,26 @@ XXD Panel 018 是一个面向 Codex 与兼容 Agent 的图像生成 Skill。它�
 
 尺度差、轴线、正负形、前后遮挡和大面积暖象牙留白建立清楚层级。源图色彩被分配为主色、深结构色、浅层次色和至多一个极小强调色；哑光纸纤维、清晰切边、厚度与柔和接触影让少量纸层真实成立。一个短标题与 2–4 组微型文字共同建立完整阅读路径。
 
+## 样张 · 来自 X
+
+> [小小东（@xiaoxiaodong01）](https://x.com/xiaoxiaodong01/status/2090140034926350693) · 2026-08-19<br>
+> GPT2 x 剪纸 x 手工 x 美学提示词 x VOL.018
+
+<table>
+  <tr>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090140034926350693"><img src="./assets/examples/sample-01.jpg" alt="XXD Panel 018 样张 1"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090140034926350693"><img src="./assets/examples/sample-02.jpg" alt="XXD Panel 018 样张 2"></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090140034926350693"><img src="./assets/examples/sample-03.jpg" alt="XXD Panel 018 样张 3"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090140034926350693"><img src="./assets/examples/sample-04.jpg" alt="XXD Panel 018 样张 4"></a></td>
+  </tr>
+</table>
+
+<p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090140034926350693">查看原推文与完整提示词 →</a></p>
+
+这些样张用于展示 018 的美学动机，不会把样张中的主体、构图、配色、文案或旧画幅变成生成参考或当前默认值。
+
 ## 为什么需要 018
 
 普通“纸艺风”很容易退化成 014 式主导多切面雕塑、复杂堆积、儿童手工、塑料 3D，或用纸片和一个大标题填满画面。
@@ -43,26 +63,6 @@ XXD Panel 018 是一个面向 Codex 与兼容 Agent 的图像生成 Skill。它�
 - **源图色彩角色：** 一个主色、一个深结构色、一个浅层次色和至多一个极小强调色。
 - **真实哑光纸感：** 可见纤维、切边厚度和柔和接触影，不是塑料 3D、廉价卡纸或主导雕塑。
 - **完整微排版：** 一个短标题＋2–4 组极小文字沿纸边、轮廓、轴线与负空间建立阅读路径；原始提示词生成文字不使用年份。
-
-## 样张 · 来自 X
-
-> [小小东（@xiaoxiaodong01）](https://x.com/xiaoxiaodong01/status/2090140034926350693) · 2026-08-19<br>
-> GPT2 x 剪纸 x 手工 x 美学提示词 x VOL.018
-
-<table>
-  <tr>
-    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090140034926350693"><img src="./assets/examples/sample-01.jpg" alt="XXD Panel 018 样张 1"></a></td>
-    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090140034926350693"><img src="./assets/examples/sample-02.jpg" alt="XXD Panel 018 样张 2"></a></td>
-  </tr>
-  <tr>
-    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090140034926350693"><img src="./assets/examples/sample-03.jpg" alt="XXD Panel 018 样张 3"></a></td>
-    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090140034926350693"><img src="./assets/examples/sample-04.jpg" alt="XXD Panel 018 样张 4"></a></td>
-  </tr>
-</table>
-
-<p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090140034926350693">查看原推文与完整提示词 →</a></p>
-
-这些样张用于展示 018 的美学动机，不会把样张中的主体、构图、配色、文案或旧画幅变成生成参考或当前默认值。
 
 ## 原始提示词优先，而不是二次导演
 

@@ -22,6 +22,26 @@ XXD Panel 018 is an image-generation Skill for Codex and compatible agents. It s
 
 Scale, axes, positive/negative form, front/back occlusion, and generous warm-ivory space create clear hierarchy. Source colour resolves into main, dark structural, light layer, and at most one tiny accent role. Matte fibre, clear edges, thickness, and soft contact shadows make the sparse relief plausible, while one short title plus two to four microtext groups build a complete reading path.
 
+## Samples · From X
+
+> [Xiaoxiaodong (@xiaoxiaodong01)](https://x.com/xiaoxiaodong01/status/2090140034926350693) · 2026-08-19<br>
+> GPT2 x 剪纸 x 手工 x 美学提示词 x VOL.018
+
+<table>
+  <tr>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090140034926350693"><img src="./assets/examples/sample-01.jpg" alt="XXD Panel 018 sample 1"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090140034926350693"><img src="./assets/examples/sample-02.jpg" alt="XXD Panel 018 sample 2"></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090140034926350693"><img src="./assets/examples/sample-03.jpg" alt="XXD Panel 018 sample 3"></a></td>
+    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090140034926350693"><img src="./assets/examples/sample-04.jpg" alt="XXD Panel 018 sample 4"></a></td>
+  </tr>
+</table>
+
+<p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090140034926350693">View the original post and full prompt →</a></p>
+
+These samples demonstrate the 018 aesthetic motive. Their subjects, composition, palette, copy, and earlier canvas ratio never become generation references or current defaults.
+
 ## Why it exists
 
 A “paper-art look” easily collapses into a dominant 014-style faceted sculpture, complex piling, children's craft, plastic 3D, or filler pieces plus one oversized title.
@@ -43,26 +63,6 @@ If an unrelated photograph could replace the source without materially changing 
 - **Source-derived colour roles:** one main, one dark structural, one light layer colour, and at most one tiny accent.
 - **Real matte paper:** visible fibre, edge thickness, and contact shadow—never plastic 3D, cheap card, or a dominant freestanding sculpture.
 - **Complete microtype:** one short title plus two to four tiny groups form a reading path along paper edges, contours, axes, and negative space; original-prompt-generated text uses no year.
-
-## Samples · From X
-
-> [Xiaoxiaodong (@xiaoxiaodong01)](https://x.com/xiaoxiaodong01/status/2090140034926350693) · 2026-08-19<br>
-> GPT2 x 剪纸 x 手工 x 美学提示词 x VOL.018
-
-<table>
-  <tr>
-    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090140034926350693"><img src="./assets/examples/sample-01.jpg" alt="XXD Panel 018 sample 1"></a></td>
-    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090140034926350693"><img src="./assets/examples/sample-02.jpg" alt="XXD Panel 018 sample 2"></a></td>
-  </tr>
-  <tr>
-    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090140034926350693"><img src="./assets/examples/sample-03.jpg" alt="XXD Panel 018 sample 3"></a></td>
-    <td width="50%"><a href="https://x.com/xiaoxiaodong01/status/2090140034926350693"><img src="./assets/examples/sample-04.jpg" alt="XXD Panel 018 sample 4"></a></td>
-  </tr>
-</table>
-
-<p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090140034926350693">View the original post and full prompt →</a></p>
-
-These samples demonstrate the 018 aesthetic motive. Their subjects, composition, palette, copy, and earlier canvas ratio never become generation references or current defaults.
 
 ## The original brief is authoritative
 
