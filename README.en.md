@@ -42,7 +42,18 @@ Scale, axes, positive/negative form, front/back occlusion, and generous warm-ivo
 
 These samples demonstrate the 018 aesthetic motive. Their subjects, composition, palette, copy, and earlier canvas ratio never become generation references or current defaults.
 
-## Why it exists
+<!-- xxd-panel-benefit:start -->
+## Quick fit check: is XXD Panel 018 right for you?
+
+| What you need to know | What this style gives you |
+|---|---|
+| **What you will get** | Rebuild the photograph with one paper anchor, a few layers, and precise microtype |
+| **Recognizable signature** | ONE VISUAL ANCHOR · FEW DEPTH LAYERS · WARM-IVORY SPACE · MATTE PAPER · COMPLETE MICROTYPE |
+| **How it respects your source** | Recognizable identity, relationships, structure, and supplied facts stay anchored. Styling reorganizes the visual language instead of replacing your content with an unrelated template. |
+| **Where you can use it** | Create top-bottom, left-right, design-only, and four-device wallpaper outputs in multiple ratios or exact sizes. Delivery changes; the Panel's style identity does not get diluted. |
+<!-- xxd-panel-benefit:end -->
+
+## How it turns your source into a distinctive result
 
 A “paper-art look” easily collapses into a dominant 014-style faceted sculpture, complex piling, children's craft, plastic 3D, or filler pieces plus one oversized title.
 
@@ -54,7 +65,7 @@ lock three identity cues and the core relation → choose one visual anchor → 
 
 If an unrelated photograph could replace the source without materially changing the visual anchor, depth-layer relations, negative space, colour roles, or type path, the result is not 018.
 
-## The 018 visual contract
+## What makes the finished style recognizable
 
 - **One visual anchor:** the core subject preserves at least three cues, the principal action, and the inseparable relation without being repeated.
 - **Few depth layers:** only essential environment relations become foreground, midground, or background paper; every layer carries depth, scale, direction, occlusion, or narrative.
