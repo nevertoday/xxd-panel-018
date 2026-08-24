@@ -1,62 +1,79 @@
-# XXD Panel 018 | Minimal Layered Paper-Cut Microtype Production Prompt
+# XXD Panel 018 | Runtime Adapter (English)
 
-## Runtime complete-canvas contract — highest priority
+This is not a second aesthetic prompt. Read and use `references/018-source.md` in full and verbatim before generation; it is the sole creative and aesthetic authority for Panel 018. This file only appends the current user's runtime variables.
 
-- `TOP_BOTTOM` and `LEFT_RIGHT` default to one complete finished generation using the current source as a high-fidelity edit/reference input. Do not pre-split the job into photographic and design halves.
-- Top-bottom keeps the faithful source in approximately the upper 50% and performs this style transformation below; left-right uses the faithful source in approximately the left 50% and the transformation on the right. Unify both regions through colour, light, rhythm, typography, and meaning.
-- `DESIGN_ONLY` and `WALLPAPER_PACK` use the complete canvas while the source remains an invisible identity/content reference. Recompose every wallpaper separately for its device.
-- `FINAL CANVAS` means the ratio/pixels of the whole finished artwork and must be explicitly resolved before generation; never apply source dimensions silently. `DESIGN FRAME` is used only if a failed complete-canvas retry triggers deterministic composition fallback.
-- Retry a failed complete canvas once against the failed constraint only. Scripted composition is allowed only after that retry still fails, when pixel-identical source preservation is explicitly required, when the active route cannot realise the canvas, or for lossless pixel calibration.
+## Non-authoring boundary
 
-### Model priority and credentials
+- Do not summarize, translate, expand, polish, or “improve” the source brief.
+- Do not add a palette plan, material plan, composition theory, whitespace rule, title, microcopy package, or aesthetic motive.
+- Preserve the source brief's own colour behaviour exactly, whether it derives colour from the photograph or specifies a fixed family.
+- Let the image model execute the source brief's existing text logic. The outer Skill does not pre-write copy.
+- Current modes and sizes override only the legacy 3:4 top-bottom container, never the remaining aesthetic rules.
 
-- **Prefer GPT Image 2.** When GPT Image 2 is available through the current built-in image tool or a configured compatible route, use it first for the high-fidelity reference/edit and complete-canvas generation required by this prompt.
-- Also support Seedance 5.0 Pro, Nano Banana Pro (Gemini Image Pro), Nano Banana 2 (Gemini Image Flash), or another compatible bitmap model only when the actual route can preserve the source, realise the whole finished canvas, render the target-language text, and accept the multiple references needed by a linked wallpaper pack.
-- An alternative model changes only the generation route. It must not change this prompt's modes, canvas, source visibility, copy, locale, wallpaper relationship, or complete-canvas-first / composition-fallback-only logic. Do not silently downgrade a hard requirement.
-- If no suitable route is available, ask the user to enable an image-generation tool or provide an API key. User-provided credentials may be used for the current task, but never echo, display, log, or expose their value in chat, prompts, or diagnostics. Do not persist them or modify global route configuration unless explicitly requested.
-- Judge availability by actual image capability, not by a provider name or one missing environment variable.
+## Append-only runtime template
 
-Process only the one source photograph explicitly supplied for the current task. Lock the subject or inseparable relation, silhouette, pose, action, structure, scale, negative shape, direction, and distance, preserving at least three source-specific identity cues. Never borrow a subject, layer map, palette, copy, or composition from old outputs, samples, or another input.
+```text
+RUNTIME OVERRIDE — CURRENT DELIVERY ONLY
 
-## One visual anchor and a few layers
+The original brief's initial 3:4 top-bottom arrangement is its legacy presentation container.
+For this output, override only: final canvas, source/design-region placement,
+source visibility, and device dimensions.
+Except for those container variables, every design-transformation, composition,
+colour, material, whitespace, text-character and typography instruction in the
+original brief remains authoritative.
 
-Choose one core subject or inseparable relation as the only visual anchor. Preserve its defining contour, proportion, pose, action, and relations through fold, cut, layer, and occlusion without mechanically reproducing detail or duplicating the subject into several paper objects.
+Interpret “upper photo” as SOURCE REFERENCE.
+Interpret “lower half” as DESIGN REGION.
 
-People retain pose, orientation, clothing mass, and relational distance; animals retain body rhythm and head direction; plants retain growth gesture; architecture retains skyline and defining openings; objects and vehicles retain functional silhouette and negative shape; landscapes retain a source-specific horizon, terrain, or spatial relation.
+OUTPUT MODE: TOP_BOTTOM | LEFT_RIGHT | DESIGN_ONLY | WALLPAPER_PACK
+FINAL CANVAS: <ratio and/or exact WIDTHxHEIGHT>
+DEVICE PROFILE: NONE | PHONE | IPAD | DESKTOP | WATCH
+SOURCE VISIBILITY: UPPER HALF | LEFT HALF | REFERENCE ONLY — NOT VISIBLE
+DESIGN REGION: LOWER HALF | RIGHT HALF | FULL CANVAS
+PAIRED RELATION: FOLLOW THE ORIGINAL BRIEF'S PAIRED-PROPORTION RULE | NOT APPLICABLE
+WALLPAPER RELATIONSHIP: NONE | INDEPENDENT | LINKED
 
-Select only a few essential environment relations and assign them explicitly to foreground, midground, and background paper layers. Every layer must carry depth, scale, direction, occlusion, or narrative relation. Reject filler pieces, repeated subjects, floating confetti, complex piling, excessive facets, decorative nesting, and a second visual centre.
+Colour follows the original brief's existing colour instructions exactly.
+Unless the user explicitly requests a colour change, do not add, replace,
+summarize, or re-plan any palette.
+```
 
-## Clear hierarchy and generous space
+Append exactly one text block after the runtime block. If the user has other explicit requirements, append those verbatim after the text block at the very end.
 
-Organise the image through scale difference, geometric axes, positive/negative form, front/back occlusion, and generous warm-ivory or pale space. The anchor may be off-centre, lightly cropped, extended, or suspended, but key identity cues and action direction must survive.
+### Text generated from the original prompt
 
-Use folds only at source-earned joints, plane changes, directions, or depth relations. Clear cut edges reveal thickness, and every layer casts a soft contact shadow only onto the paper directly behind it. Shadow explains layering rather than turning the result into a dominant freestanding faceted sculpture.
+```text
+TEXT MODE: ORIGINAL_PROMPT_GENERATED
+TEXT LANGUAGE: <user-confirmed language or locale>
 
-Recompose anchor, depth layers, negative space, title, and microtype path for every device and aspect ratio. Never centre, crop, or resize another output.
+The image model generates wording by following the original brief's existing
+text-generation logic. The outer Skill supplies no title, microcopy, copy
+package, or additional semantic framework.
+```
 
-## Source-derived colour roles and matte paper
+### User-exact text
 
-Extract the source's most recognisable and vital colours, assigning one main colour, one dark structural colour, one light layer colour, and at most one tiny source-supported accent. Each role carries identity, layer separation, axis, or emphasis; never use a fixed palette or uncontrolled rainbow.
+```text
+TEXT MODE: USER_EXACT
+TEXT LANGUAGE: <user-confirmed language or locale>
+TEXT: “<user's exact characters>”
 
-Use warm ivory or a source-compatible pale paper ground. Render refined matte card, visible fibre, clear cut edges, true layer thickness, and soft contact shadows under natural diffuse light.
+Use the supplied text verbatim. Do not rewrite, translate, spell-correct, or add
+any other wording. Typography and placement still follow the original brief.
+```
 
-Reject plastic, metal, clay, foam board, cheap card, glossy lamination, fake bevels, neon colour, complex gradients, hard product lighting, low-poly rendering, and default 3D materials.
+### No text
 
-## Complete high-end editorial microtype
+```text
+TEXT MODE: NONE
+Render no letters, characters, numbers, titles, labels, logos, or pseudo-text anywhere.
+```
 
-Obey the locked automatic, exact-user, or text-free copy mode and target language or locale. Preserve exact user wording verbatim. In text-free mode render no letter, character, number, paper type, or pseudo-text.
+See `SKILL.md` for preflight, multi-size, multi-mode, wallpaper, execution, and output rules. Every final generation request has this order:
 
-Automatic copy derives one short main title from subject identity, known place, action, material, emotion, relation, or supported symbolism, plus two to four tiny groups chosen from an object name, user-supplied or established place, compositional index, chapter mark, sequence code, coordinate-like compositional number, direction word, state word, material word, category label, or one very short poetic note.
-
-Automatic copy never invents or uses a year. Places, dates, provenance, coordinates, and factual numbers must be user-supplied or reliably established. Exact user wording remains verbatim even when it contains a year; the no-year rule constrains automatic creation only.
-
-The title carries recognition and emotion; microtype carries order, rhythm, classification, and refinement. The title may become a restrained cut- or folded-paper form. Two to four microtext groups remain slender, controlled, and accurate, building a reading path through clear scale contrast and direction change.
-
-Align text along paper edges, subject contours, geometric axes, or negative space. Use horizontal or vertical setting, rotation, wide tracking when script-appropriate, edge attachment, corner pressure, crossing a colour block, nesting between layers, or partial occlusion only when it supports reading. Preserve native shaping, joining, direction, spacing, and semantic line breaks; never force Latin block folds or tracking onto Chinese, Japanese, Korean, or Arabic.
-
-## Mode and acceptance
-
-
-Hard gate: one visual anchor preserves at least three source cues and the principal action or relation; only a few source-earned foreground, midground, and background layers; physically plausible folds, cuts, layers, occlusion, scale, axes, and positive/negative form; generous warm-ivory or pale space; one main + one dark structural + one light layer colour + at most a tiny accent; matte fibre, clear edges, true thickness, and soft contact shadows; one short title plus two to four accurate microtext groups form a reading path; no invented year in automatic copy and exact user wording remains verbatim; no dominant faceted sculpture, repeated subject, decorative shards, complex piling, cartoon origami, children's craft, plastic 3D, ecommerce display, cheap card, photo fragment, or pseudo-text.
-
-If any hard condition fails, correct the generated asset. Never fake the artwork with programmatic drawing, SVG, HTML, Canvas, or a post-composited type overlay.
+```text
+complete verbatim 018-source.md
++ current runtime override block
++ exactly one text-mode block
++ any other explicit user requirement, verbatim, at the very end
+```
