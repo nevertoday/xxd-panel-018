@@ -1,5 +1,13 @@
 # XXD Panel 018 | Minimal Layered Paper-Cut Microtype Production Prompt
 
+## Runtime complete-canvas contract — highest priority
+
+- `TOP_BOTTOM` and `LEFT_RIGHT` default to one complete finished generation using the current source as a high-fidelity edit/reference input. Do not pre-split the job into photographic and design halves.
+- Top-bottom keeps the faithful source in approximately the upper 50% and performs this style transformation below; left-right uses the faithful source in approximately the left 50% and the transformation on the right. Unify both regions through colour, light, rhythm, typography, and meaning.
+- `DESIGN_ONLY` and `WALLPAPER_PACK` use the complete canvas while the source remains an invisible identity/content reference. Recompose every wallpaper separately for its device.
+- `FINAL CANVAS` means the ratio/pixels of the whole finished artwork and must be explicitly resolved before generation; never apply source dimensions silently. `DESIGN FRAME` is used only if a failed complete-canvas retry triggers deterministic composition fallback.
+- Retry a failed complete canvas once against the failed constraint only. Scripted composition is allowed only after that retry still fails, when pixel-identical source preservation is explicitly required, when the active route cannot realise the canvas, or for lossless pixel calibration.
+
 Process only the one source photograph explicitly supplied for the current task. Lock the subject or inseparable relation, silhouette, pose, action, structure, scale, negative shape, direction, and distance, preserving at least three source-specific identity cues. Never borrow a subject, layer map, palette, copy, or composition from old outputs, samples, or another input.
 
 ## One visual anchor and a few layers
@@ -40,9 +48,7 @@ Align text along paper edges, subject contours, geometric axes, or negative spac
 
 ## Mode and acceptance
 
-Obey the appended `OUTPUT MODE`, `FINAL SIZE`, and `DESIGN FRAME`. Paired modes generate only the design half; design-only and wallpapers show no source photograph. Recompose every wallpaper for its device, never crop another device output, and render no system UI or mockup. A linked pack references the original photo plus the same approved anchor and never chains derivatives.
 
 Hard gate: one visual anchor preserves at least three source cues and the principal action or relation; only a few source-earned foreground, midground, and background layers; physically plausible folds, cuts, layers, occlusion, scale, axes, and positive/negative form; generous warm-ivory or pale space; one main + one dark structural + one light layer colour + at most a tiny accent; matte fibre, clear edges, true thickness, and soft contact shadows; one short title plus two to four accurate microtext groups form a reading path; no invented year in automatic copy and exact user wording remains verbatim; no dominant faceted sculpture, repeated subject, decorative shards, complex piling, cartoon origami, children's craft, plastic 3D, ecommerce display, cheap card, photo fragment, or pseudo-text.
 
 If any hard condition fails, correct the generated asset. Never fake the artwork with programmatic drawing, SVG, HTML, Canvas, or a post-composited type overlay.
-

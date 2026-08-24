@@ -7,15 +7,15 @@ description: "Create XXD Panel 018 artwork from supplied photos in four combinab
 
 Turn each supplied photograph into one finished minimal layered paper-cut editorial. Preserve the real photograph only in paired modes; every transformed frame must retain the same source's identity, silhouette, pose, and narrative relation through one visual-anchor subject, a few foreground/midground/background paper layers, folds, cuts, occlusion, clear negative space, matte fibre, edge thickness, soft contact shadow, and a complete microtypographic reading path.
 
-Operational rules follow the shared XXD Panel workflow contract: four combinable modes; source-adaptive ordinary canvases; exact 50/50 paired geometry; linked or independent four-device wallpapers; copy and locale preflight; fresh generation jobs; privacy-preserving raster generation; and one fresh task directory per source and mode. Style-specific sections may refine aesthetics, copy hierarchy, and acceptance criteria but never override this contract.
+Operational rules follow the shared XXD Panel workflow contract: four combinable modes; an explicitly confirmed whole-canvas ratio or exact resolution before generation; single complete-canvas raster generation by default; high-fidelity source reference in paired modes; linked or independent four-device wallpapers; copy and locale preflight; fresh generation jobs; privacy-preserving raster generation; deterministic composition as fallback only; and one fresh task directory per source and mode. Style-specific sections refine aesthetics and copy but never override this contract.
 
 ## Non-negotiable contract
 
 - One source photo may be processed in one or more selected modes. Each selected ordinary mode (`top-bottom`, `left-right`, `design-only`) produces one PNG; selected `wallpaper-pack` produces exactly four separate PNGs. Selecting all four modes therefore produces seven final files per source. Keep every mode in its own task directory and never combine modes, sources, or wallpapers into a grid, contact sheet, or overview.
 - Resolve a non-empty ordered set of modes before generation: `top-bottom`, `left-right`, `design-only`, and/or `wallpaper-pack`. Accept one choice, multiple choices separated by `+`, Chinese/English commas or whitespace, natural-language names, or `全部` / `all`. Deduplicate repeated choices and execute in menu order 1→4. If none is specified, ask with the multiline multi-select menu in the workflow. Do not ask again when the set is already clear.
 - When the selected set contains `wallpaper-pack`, require a second choice: `linked` or `independent`. A linked pack approves one anchor wallpaper, iPad by default, and makes every other device reference both the original photo and that same anchor. An independent pack gives every device only the original photo. Neither permits resizing or cropping one wallpaper into the others. Do not ask this follow-up when wallpaper mode is not selected.
-- Paired modes split exactly 50/50. `design-only` and every wallpaper contain no visible source photograph, no seam, and no reserved photographic panel.
-- Exact user pixels have highest priority, followed by an explicit ratio or destination. Otherwise ordinary modes adapt to the complete source: `top-bottom` = `W×2H`, `left-right` = `2W×H`, and `design-only` = `W×H`. Never impose the archived initial brief's 3:4 canvas as a silent default.
+- Paired modes target a visually equal 50/50 relationship within one coherent generated canvas. Minor generative deviation is acceptable unless the user explicitly requires pixel-exact halves; exact deterministic geometry belongs to the documented fallback. `design-only` and every wallpaper contain no visible source photograph, no seam, and no reserved photographic panel.
+- The whole final canvas ratio or exact pixels must be explicitly resolved before generation. Offer the archived/original-prompt 3:4, source aspect as an explicit choice, common ratios, or custom ratio/pixels; never infer explicitly selected final-canvas dimensions silently. Exact pixels take precedence over an explicitly chosen ratio.
 - Visible photography remains faithful. Allow only restrained editorial grading and environmental extension needed for an explicitly overridden canvas. Never stretch, distort, repaint, replace, or structurally alter the subject.
 - The transformed frame must preserve source identity through at least three specific cues while using one visual-anchor subject and only a few source-earned foreground, midground, and background paper layers. Folds, cuts, scale, axes, positive/negative shape, front/back occlusion, and generous space build hierarchy. It is not literal tracing, a dominant multi-faceted 014-style sculpture, repeated subjects, cartoon origami, children's craft, complex stacking, smooth low-poly CG, plastic 3D, ecommerce mockup, or unrelated paper decoration.
 - Copy has no silent default. Resolve automatic copy, exact custom copy, or text-free output before image generation. Automatic and custom modes also require a target language or locale. By default, one source-specific copy package is shared verbatim across all selected modes; explicit per-mode copy instructions override it.
@@ -114,31 +114,36 @@ Use only images attached to the current invocation, explicit user paths, or a pr
 
 ## Workflow
 
-1. If no mode is resolved, ask exactly this as normal multiline chat text and wait:
+1. Resolve one or more modes. If missing, ask exactly this as normal multiline chat text and wait:
 
    ```text
    请选择一个或多个模式（回复序号；多选可用 +、顿号或逗号）：
 
-   1. 上下双联（完整原图＋同尺寸设计图）
-   2. 左右双联（完整原图＋同尺寸设计图）
-   3. 纯设计版（沿用原图比例，不显示原照片）
+   1. 上下双联（原图在上＋018 设计在下）
+   2. 左右双联（原图在左＋018 设计在右）
+   3. 纯设计版（只显示 018 设计画面）
    4. 四端壁纸套装
       手机＋iPad＋电脑＋儿童手表
 
-   前三种不指定尺寸时按原图自适应；也可主动指定尺寸。壁纸套装可按设备分别给分辨率。
    示例：1｜1+3｜1、2、4｜全部
    ```
 
-2. If the selected set contains `wallpaper-pack` without a relationship, ask and wait:
+2. Before any ordinary-mode generation, explicitly resolve the **final finished canvas**, not the size of one panel. If the user did not already supply a ratio or exact pixels, ask and wait:
 
    ```text
-   请选择壁纸关系（回复序号即可）：
+   请选择最终成品画幅（回复序号即可；多选模式可共用，也可分别指定）：
 
-   1. 连贯套装（推荐）
-      先生成 iPad 定调图；其他三张参考原照片＋定调图分别重构
-   2. 四张独立
-      每张只参考原照片，构图变化更自由
+   1. 原提示词画幅 3:4
+   2. 跟随原图比例
+   3. 常用比例
+      1:1｜4:5｜2:3｜3:2｜16:9｜9:16
+   4. 自定义比例或准确像素
+
+   这里指整张最终成品的比例，不是单个区域。
+   示例：1｜3：9:16｜4：2160×3840
    ```
+
+   “跟随原图比例” is valid only when the user explicitly selects it. Never infer a silent canvas from the source dimensions, orientation, archived 3:4 brief, mode, or previous output. In multi-select, ask which mode an ambiguous ratio belongs to. Exact pixels take priority over a chosen ratio. For paired modes, odd split axes are allowed for direct generation; require an even split axis only if deterministic fallback composition is actually triggered.
 
 3. Before generation, resolve copy mode and locale. If missing, ask and wait:
 
@@ -146,7 +151,7 @@ Use only images attached to the current invocation, explicit user paths, or a pr
    正式做图前，请确认文字设置（回复序号即可）：
 
    1. 自动文案
-      我根据原图与 018 气质创作短标题＋2–4 组微文字；请同时注明语言或地区
+      我根据原图与 018 气质创作文案；请同时注明语言或地区
    2. 自定义文案
       请直接输入要呈现的准确文字，并注明语言或地区
    3. 无文字
@@ -155,90 +160,69 @@ Use only images attached to the current invocation, explicit user paths, or a pr
    示例：2｜英式英语｜STILL IN BLOOM
    ```
 
-4. Resolve dimensions independently for every selected mode: exact pixels > explicit ratio/destination > source adaptation. Exact `top-bottom` height and `left-right` width must be even; never silently round. In multi-select, custom sizes must be labelled by mode; ask when an unlabeled size is ambiguous. Wallpaper-pack has no silent size default. If unresolved, ask:
+   Automatic copy must be source-specific and native to the resolved locale. Preserve exact custom copy verbatim. Do not infer locale from appearance, clothing, scenery, filenames, metadata, or visible signs.
 
-   ```text
-   请选择壁纸尺寸（回复序号即可）：
+4. Only when `wallpaper-pack` is selected, resolve its relationship and device sizes. Ask for `1. 连贯套装` or `2. 四张独立` when missing. A linked set approves one iPad anchor by default; the other three outputs each reference the original plus that same anchor and are independently recomposed. An independent set gives every device only the original. Then ask for either the common preset—phone `1440×3200`, iPad `2048×2732`, desktop `3840×2160`, watch `1024×1024`—or labelled custom pixels. Never crop one wallpaper into another or chain derivatives.
 
-   1. 常用设备预设
-      手机 1440×3200｜iPad 2048×2732｜电脑 3840×2160｜儿童手表 1024×1024
-   2. 自定义分辨率
-      请分别输入手机、iPad、电脑、儿童手表的尺寸
-   ```
+5. Start a fresh job and reserve collision-safe output directories before generation. Use only the current invocation's explicit source or theme. Read `references/xxd-panel-018-prompt.en.md` or `references/xxd-panel-018-prompt.zh-CN.md` immediately before building the generation request.
+6. Privately lock the principal subject or inseparable relationship, at least three source-specific recognition cues, the style's complete aesthetic motive, composition logic, materials, palette, typography, exact copy, and locale. The source photograph is the factual and identity anchor; do not borrow content from samples or old outputs.
+7. Use **single complete-canvas generation as the default for every mode**:
+   - `top-bottom`: supply the source as a high-fidelity edit/reference input and generate one finished image containing the faithful source in the upper half and the 018 transformation in the lower half.
+   - `left-right`: supply the source as a high-fidelity edit/reference input and generate one finished image containing the faithful source on the left and the 018 transformation on the right.
+   - `design-only`: generate the 018 transformation across the whole canvas; the source is reference-only and not visible.
+   - `wallpaper-pack`: generate four separate complete canvases, one per device, following the resolved independent or linked relationship.
+8. Append the complete-canvas payload below to the full local style prompt. Keep all 018-specific aesthetic and typography instructions active across the entire composition. For paired modes, ask for approximately equal regions while prioritising a coherent finished artwork: colour, light, rhythm, typography, meaning, and any cross-panel echo must feel intentionally unified.
+9. Generate each distinct output as a fresh raster image job. Do not request two separate half-images, a contact sheet, a mockup, an empty reserved panel, or a code-rendered substitute.
+10. Inspect the actual bitmap at full size and thumbnail size. Check, in order: whole-poster integration; 018 aesthetic fidelity; source identity and structure; visual and semantic correspondence between regions; typography and locale; mode, ratio/pixels, count, and PNG format; then approximate 50/50 geometry.
+11. If a paired result fails a hard requirement, retry the **complete canvas once**, changing only the failed constraint. Use `scripts/compose_panel.py` only after that retry still fails, or when the user explicitly requires pixel-identical source preservation, the active image route cannot realise the selected canvas, the requested ratio exceeds route limits, or final lossless pixel calibration is necessary. The script is a fallback utility, never the default creative path and never an aesthetic judge.
+12. Reopen every final PNG, apply the acceptance gate, and return absolute paths in source order and mode order 1→4. Wallpaper order is phone, iPad, desktop, watch.
 
-5. Open one fresh job boundary and reserve the next unused sibling output directory for every source and selected mode. Confirm only current user-supplied sources, inspect each separately, and read the full prompt matching the working language:
-   - Chinese: [references/xxd-panel-018-prompt.zh-CN.md](references/xxd-panel-018-prompt.zh-CN.md)
-   - English: [references/xxd-panel-018-prompt.en.md](references/xxd-panel-018-prompt.en.md)
-6. Privately lock: the principal subject or inseparable relation group; at least three identity, silhouette, pose, action, structure, scale, negative-shape, or relation cues; the one visual anchor; a sparse foreground/midground/background layer map; scale and axis hierarchy; positive/negative space; front/back occlusion; main/dark/light/accent colour roles; matte fibre, cut edge, thickness, and contact-shadow material; one title; two to four microtext roles; and the editorial reading path. Do not invent unsupported biography, location, event, ownership, emotion, symbolism, year, or factual annotation.
-7. Lock one copy package per source and share it verbatim across selected modes by default; honour explicit per-mode overrides. Priority: explicit text-free request > exact user wording > editable user direction > source-derived automatic copy. Automatic copy uses one title plus two to four microtext groups; it never invents or uses a year. Exact user wording remains verbatim even when it contains a year. Do not reuse one photo's copy for another unless asked.
-8. Run `scripts/compose_panel.py --plan` for every selected mode and resolved canvas. Selected wallpaper-pack uses four `design-only` plans.
-9. Generate each distinct transformed design alone at the planned aspect and preferably exact frame size. For paired modes, prepare the photographic panel separately. Never ask the model to generate both halves at once.
-   Within the same current invocation, ordinary modes may reuse one newly approved transformed intermediate only when frame dimensions, aspect ratio, source facts, aesthetic instructions, typography, and locked copy are identical. Otherwise generate separately. Wallpaper assets are always generated separately.
-10. For `independent`, generate four wallpapers directly from the source. For `linked`, generate and visually approve the anchor first; every derivative receives exactly the original source plus that same anchor. The source locks identity and content; the anchor locks only sparse foreground/midground/background layer grammar, fold-and-cut restraint, colour-role proportions, matte fibre and clear edges, soft contact shadows, one-anchor hierarchy, negative-space discipline, and title-plus-microtype path. Never chain derivatives.
-11. Finalise every selected mode in menu order with `scripts/compose_panel.py`, reopen each PNG at normal and thumbnail size, and apply the acceptance gate. Retry only the faulty generated asset once when a hard invariant fails. After one failed correction, return the best result and name the unresolved issue rather than pretending success.
-12. Return absolute paths in source order, then menu order 1→4. Wallpaper order is phone, iPad, desktop, watch.
+## Complete-canvas generation payload
 
-## Generation payload
-
-Append the resolved mode block to every transformed-asset prompt:
+Append one resolved block to the style prompt for each output:
 
 ```text
 OUTPUT MODE: TOP_BOTTOM | LEFT_RIGHT | DESIGN_ONLY | WALLPAPER_PACK
 DEVICE PROFILE: NONE | PHONE | IPAD | DESKTOP | WATCH
-FINAL SIZE: <exact WIDTHxHEIGHT>
-DESIGN FRAME: <exact WIDTHxHEIGHT>
-SOURCE VISIBILITY: UPPER PANEL | LEFT PANEL | REFERENCE ONLY — NOT VISIBLE
-LAYOUT RULE: Fill the design frame. Render no extra photo, seam, frame, or reserved photographic area inside the transformed design.
-WALLPAPER RULE: Recompose for this device; keep system-UI zones low-information and essential content safe; render no clock, icons, dock, controls, or mockup; never crop another device output.
+FINAL CANVAS: <whole finished ratio and/or exact WIDTHxHEIGHT>
+GENERATION STRATEGY: SINGLE COMPLETE CANVAS
+REFERENCE ROLE: SOURCE — HIGH-FIDELITY CONTENT AND IDENTITY ANCHOR
+SOURCE VISIBILITY: UPPER 50% | LEFT 50% | REFERENCE ONLY — NOT VISIBLE
+LAYOUT RULE:
+- Produce one finished poster in one image.
+- TOP_BOTTOM keeps a faithful photographic source in the upper half and creates the transformed design in the lower half.
+- LEFT_RIGHT keeps a faithful photographic source in the left half and creates the transformed design in the right half.
+- DESIGN_ONLY and WALLPAPER_PACK use the whole canvas for the transformed design and show no source photograph or reserved panel.
+- Keep paired regions approximately equal while unifying colour, light, rhythm, typography, and meaning.
+- Do not output separate panels, a contact sheet, a mockup, or an empty placeholder.
 WALLPAPER RELATIONSHIP: NONE | INDEPENDENT | LINKED
-ANCHOR DEVICE: NONE | PHONE | IPAD | DESKTOP | WATCH
-REFERENCE ROLE: SOURCE ONLY | SOURCE CONTENT + ANCHOR VISUAL DNA
+ANCHOR DEVICE: NONE | IPAD
 ```
 
-For text output, append:
+For text output append:
 
 ```text
 COPY MODE: REQUIRED
 COPY ORIGIN: USER_EXACT | USER_DIRECTION | SOURCE_DERIVED
 COPY LOCALE: <resolved locale>
-COPY INTENT — INSTRUCTION ONLY, NEVER RENDER: <source-specific meaning and tone>
-TITLE: <locked exact string>
-NOTE 1: <optional locked exact string>
-NOTE 2: <optional locked exact string>
-NOTE 3: <optional locked exact string>
-NOTE 4: <optional locked exact string>
-TYPE ROLE: TITLE CARRIES RECOGNITION AND EMOTION; MICROTYPE CARRIES ORDER AND RHYTHM
-TYPE PLACEMENT: PAPER EDGE | SUBJECT CONTOUR | GEOMETRIC AXIS | NEGATIVE SPACE | HORIZONTAL | VERTICAL | ROTATED | EDGE-ATTACHED | CORNER-PRESSED | ACROSS COLOUR BLOCK | BETWEEN LAYERS | PARTIALLY OCCLUDED
-TYPE MATERIAL: CUT OR FOLDED MATTE-PAPER TITLE + SLENDER CRISP EDITORIAL MICROTYPE
-TYPE SCALE: ONE SHORT TITLE + 2–4 DELIBERATELY TINY GROUPS
-COPY RULE: Render only TITLE and populated NOTE strings, each exactly once. Instruction fields are never visible. Do not rewrite, translate, spell-correct, duplicate, or add text. Use native script shaping, punctuation, spacing, and semantic line breaks.
+COPY PAYLOAD: <the exact 018-specific title and supporting-text package resolved under the local production prompt>
+COPY RULE: Render only the populated strings in COPY PAYLOAD, each exactly once. Do not rewrite, translate, spell-correct, duplicate, or add text. Use native shaping, direction, punctuation, spacing, and semantic line breaks. Preserve the 018-specific hierarchy, amount of supporting text, placement, material, and typographic role instead of applying a generic overlay.
 ```
 
-Remove unused note lines. For text-free output use only `COPY MODE: NONE — render no text or pseudo-text anywhere.`
+For text-free output append only `COPY MODE: NONE — render no text or pseudo-text anywhere.`
 
-## Composition commands
+## Composition fallback only
+
+`scripts/compose_panel.py` remains available for deterministic recovery and audit. Trigger it only under step 11. When used, generate a same-aspect design asset from the full 018 prompt, preserve the source without destructive crop or stretch, and document which fallback condition applied. A direct complete-canvas success must not be split and recomposed again.
 
 ```bash
-# Source-adaptive top-bottom
-python3 scripts/compose_panel.py --plan --layout top-bottom --source photo.png
-python3 scripts/compose_panel.py --source photo.png --design design.png \
-  --out result.png --layout top-bottom
+# Read-only audit after direct generation
+python3 scripts/compose_panel.py --audit final.png --layout top-bottom --size WIDTHxHEIGHT
 
-# Source-adaptive left-right
-python3 scripts/compose_panel.py --plan --layout left-right --source photo.png
+# Deterministic fallback after the complete-canvas retry has failed
 python3 scripts/compose_panel.py --source photo.png --design design.png \
-  --out result.png --layout left-right
-
-# Design-only
-python3 scripts/compose_panel.py --source photo.png --design design.png \
-  --out result.png --layout design-only
-
-# One wallpaper, repeated separately for all four devices
-python3 scripts/compose_panel.py --design phone.png --out wallpaper-phone.png \
-  --layout design-only --size 1440x3200
+  --out final.png --layout top-bottom --size WIDTHxHEIGHT
 ```
-
-`--size WIDTHxHEIGHT` overrides `--canvas` and source adaptation. Generate the design at the exact planned aspect; if exact pixels are unsupported, use a closest supported same-aspect bitmap and resample proportionally without cropping. Audit with the same layout used to build the result.
 
 ## Output location
 
@@ -256,7 +240,7 @@ Save finished work under `~/Desktop/xxd/xxd-panel-018/` unless the user supplies
 
 Before accepting each result verify:
 
-- Mode, exact pixels, source-adaptive formula, split axis, seam, and output count are correct.
+- Mode, exact pixels, explicit final-canvas ratio or pixels, split axis, seam, and output count are correct.
 - Visible photography is faithful and type-free; source-hidden outputs contain no source photograph or seam.
 - The simplified subject remains recognisable through at least three source-specific cues and preserves the principal action or inseparable relationship.
 - One paper anchor preserves at least three source-specific cues and the principal action or inseparable relation; supporting layers never repeat the subject or form a second centre.
@@ -273,10 +257,10 @@ Before accepting each result verify:
 
 ## Override policy
 
-Preserve user-specified source, mode set, output count, dimensions, target locale, copy mode, and exact finished wording. Priority is explicit text-free request > exact user wording > editable user direction > source-derived automatic copy. Exact pixels override ratio or destination; ratio or destination overrides source adaptation. A labelled wallpaper size overrides only that device.
+Preserve user-specified source, mode set, output count, dimensions, target locale, copy mode, and exact finished wording. Priority is explicit text-free request > exact user wording > editable user direction > source-derived automatic copy. Exact pixels take precedence over an explicitly chosen ratio; neither may be inferred silently. A labelled wallpaper size overrides only that device.
 
 User instructions may change subject emphasis, sparse layer map, composition axis, off-centre placement, colour roles, paper stock, depth allocation, title construction, microtype path, or copy within 018, but do not silently relax one-photo isolation, exact paired geometry, four separate wallpaper outputs, fresh-task generation, source-hidden output rules, native-language typography, or the hand-built matte-paper requirement. Leave the minimal layered paper-cut editorial aesthetic only when the user explicitly asks to leave the 018 style.
 
 ## Provenance boundary
 
-The user's original style brief is archived at [references/018-source.md](references/018-source.md). It records the initial 3:4 top-bottom example but does not override the operative mode and source-adaptive sizing rules. The full local 018 prompt is the production specification. Never borrow subjects, colours, copy, or compositions from samples or previous outputs.
+The user's original style brief is archived at [references/018-source.md](references/018-source.md). It records the initial 3:4 top-bottom example but does not override the operative mode and explicit final-canvas selection and complete-canvas generation rules. The full local 018 prompt is the production specification. Never borrow subjects, colours, copy, or compositions from samples or previous outputs.
