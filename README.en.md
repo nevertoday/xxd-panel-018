@@ -16,16 +16,7 @@
 
 </div>
 
-> ONE VISUAL ANCHOR · FEW DEPTH LAYERS · WARM-IVORY SPACE · MATTE PAPER · COMPLETE MICROTYPE
-
-XXD Panel 018 is an image-generation Skill for Codex and compatible agents. It selects one subject or inseparable relation as a visual anchor, preserves at least three source-specific cues, and translates only a few environment relations into foreground, midground, and background paper layers.
-
-Scale, axes, positive/negative form, front/back occlusion, and generous warm-ivory space create clear hierarchy. Source colour resolves into main, dark structural, light layer, and at most one tiny accent role. Matte fibre, clear edges, thickness, and soft contact shadows make the sparse relief plausible, while one short title plus two to four microtext groups build a complete reading path.
-
 ## Samples · From X
-
-> [Xiaoxiaodong (@xiaoxiaodong01)](https://x.com/xiaoxiaodong01/status/2090140034926350693) · 2026-08-19<br>
-> GPT2 x 剪纸 x 手工 x 美学提示词 x VOL.018
 
 <table>
   <tr>
@@ -38,9 +29,18 @@ Scale, axes, positive/negative form, front/back occlusion, and generous warm-ivo
   </tr>
 </table>
 
+> [Xiaoxiaodong (@xiaoxiaodong01)](https://x.com/xiaoxiaodong01/status/2090140034926350693) · 2026-08-19<br>
+> GPT2 x 剪纸 x 手工 x 美学提示词 x VOL.018
+
 <p align="center"><a href="https://x.com/xiaoxiaodong01/status/2090140034926350693">View the original post and full prompt →</a></p>
 
 These samples demonstrate the 018 aesthetic motive. Their subjects, composition, palette, copy, and earlier canvas ratio never become generation references or current defaults.
+
+> ONE VISUAL ANCHOR · FEW DEPTH LAYERS · WARM-IVORY SPACE · MATTE PAPER · COMPLETE MICROTYPE
+
+XXD Panel 018 is an image-generation Skill for Codex and compatible agents. It selects one subject or inseparable relation as a visual anchor, preserves at least three source-specific cues, and translates only a few environment relations into foreground, midground, and background paper layers.
+
+Scale, axes, positive/negative form, front/back occlusion, and generous warm-ivory space create clear hierarchy. Source colour resolves into main, dark structural, light layer, and at most one tiny accent role. Matte fibre, clear edges, thickness, and soft contact shadows make the sparse relief plausible, while one short title plus two to four microtext groups build a complete reading path.
 
 <!-- xxd-panel-benefit:start -->
 ## Quick fit check: is XXD Panel 018 right for you?
