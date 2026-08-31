@@ -4,7 +4,7 @@
 
 <div align="center">
 
-# 🦁 XXD Panel 018
+# 🦁 XXD Panel 018｜Handcut Paper Journal
 
 ### Rebuild the photograph with one paper anchor, a few layers, and precise microtype
 

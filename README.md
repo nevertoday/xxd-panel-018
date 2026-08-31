@@ -4,7 +4,7 @@
 
 <div align="center">
 
-# 🦁 XXD Panel 018
+# 🦁 XXD Panel 018｜手工剪纸志
 
 ### 用一个视觉锚点、少量纸层和精密微排版重构照片
 
