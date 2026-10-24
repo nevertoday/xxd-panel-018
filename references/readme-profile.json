@@ -1,0 +1,114 @@
+{
+  "skill_description": "XXD Panel 018｜Handcut Paper Journal: rebuilds a photo as a minimal layered hand-cut paper collage: one core subject cut, folded and overlapped as the visual anchor, a few elements of the setting turned into foreground, middle and background paper layers with clear scale and overlap, on warm ivory or pale paper in a limited set of paper colours from the photo (a main colour, a dark structural colour, light layers and a tiny accent), with fine matte card, visible fibre, crisp cut edges and soft contact shadows, plus a precise editorial micro-typography system — a short title that may itself be cut from paper and two to four tiny groups of labels, numbers or notes, never a year. Outputs PNG top-bottom or left-right comparisons, design-only images, or phone/tablet/desktop/watch wallpapers, from one photo or a folder. Use when the user invokes xxd-panel-018 or asks for layered paper-cut collage, handcut paper relief or paper-layer editorial posters from a photo.",
+  "short_description": "手工剪纸志：用一个剪纸主体、少量前中后纸层和精密微排版重构照片",
+  "zh-CN": {
+    "name": "手工剪纸志",
+    "tagline": "用一个剪纸主体、几层前中后纸片和一套精密小字，把照片重做成手工层叠剪纸。",
+    "look": "核心主体用切割、折叠、层叠和遮挡剪出来，作为整幅画的锚点；照片里只挑少量环境，变成前景、中景、背景几层纸，靠尺度差、前后遮挡和大片留白分出层次。底是暖象牙或浅色纸，颜色从照片里取，做成有限的纸张色组：一个主色、一个深色结构色、几层浅色和极少一点强调色。卡纸细腻哑光，看得见纸纤维、清楚的切边和柔和的接触阴影。文字是一套编辑式微排版：一个短主标题，可以做成剪纸字，加两到四组极小的对象名、地点、编号、方向词或短注，不用年份，沿纸层边缘或负空间排布。",
+    "traits": [
+      "前中后纸层",
+      "暖象牙",
+      "哑光纸",
+      "微排版",
+      "克制"
+    ],
+    "good": [
+      "层次清楚的风景：远山、湖和近处的树，林间一栋房子",
+      "环境里的一个主体：田埂上的人、屋顶上的猫、码头边的船",
+      "轮廓鲜明的动物和植物：一只鹿、一棵银杏"
+    ],
+    "poor": [
+      "同样的东西重复很多的照片：一排自行车、一群鸽子，剪纸只要一个核心主体",
+      "想要霓虹色、复杂渐变或塑料 3D 的效果",
+      "需要标出年份，或要求热闹、堆满的画面"
+    ]
+  },
+  "en": {
+    "name": "Handcut Paper Journal",
+    "tagline": "Remakes a photo as hand-cut layered paper: one paper subject, a few front, middle and back layers and precise tiny type.",
+    "look": "The core subject is cut, folded, layered and overlapped as the anchor of the picture; only a few things from the setting are chosen and turned into foreground, middle and background paper layers, separated by scale, overlap and wide whitespace. The base is warm ivory or pale paper, and the colours from the photo become a limited set of papers: one main colour, one dark structural colour, a few light layers and a tiny accent. The card is fine and matte, with visible fibre, crisp cut edges and soft contact shadows. Text is an editorial micro-typography system: a short main title, which can itself be cut from paper, plus two to four tiny groups of names, places, numbers, directions or brief notes, never a year, set along the edges of the layers or in negative space.",
+    "traits": [
+      "Front, middle, back layers",
+      "Warm ivory",
+      "Matte paper",
+      "Micro-typography",
+      "Restraint"
+    ],
+    "good": [
+      "Landscapes with clear layers: far hills, a lake and near trees, a house among woods",
+      "One subject in its setting: someone on a field path, a cat on a roof, a boat by a pier",
+      "Animals and plants with a strong outline: a deer, a ginkgo tree"
+    ],
+    "poor": [
+      "Photos of the same thing repeated many times, like a row of bikes or a flock of pigeons, since the collage needs one core subject",
+      "Requests for neon colour, complex gradients or plastic 3D",
+      "Designs that must show a year, or that want a busy, packed picture"
+    ]
+  },
+  "ja": {
+    "name": "切り絵手帳",
+    "tagline": "一つの切り絵の主役と、前・中・奥の数枚の紙、精密な小さな文字で、写真を手作りの重ね切り絵に作り直します。",
+    "look": "主役は切り、折り、重ね、隠し合わせてつくり、絵全体の要にします。写真の環境からはわずかなものだけを選び、手前、中景、奥の紙の層に変え、大きさの差、前後の重なり、大きな余白で奥行きを分けます。地は温かいアイボリーか淡い紙で、色は写真から取って限られた紙の色の組み合わせにします。主色一つ、暗い構造色一つ、淡い色の層がいくつか、ごく少しの強調色です。カードはきめ細かいマットで、紙の繊維、くっきりした切り口、やわらかな接地の影が見えます。文字は編集的なマイクロタイポグラフィで、短いメインタイトル（切り絵の文字にしてもかまいません）に、ごく小さなモノの名前、地名、番号、方向語、短い注記を二〜四組添え、年号は使わず、紙の層の縁や負の空間に沿って置きます。",
+    "traits": [
+      "前・中・奥の紙の層",
+      "温かいアイボリー",
+      "マットな紙",
+      "マイクロタイポグラフィ",
+      "抑制"
+    ],
+    "good": [
+      "層のはっきりした風景：遠い山、湖と手前の木、林の中の一軒家",
+      "環境の中の一つの主役：あぜ道の人、屋根の上の猫、桟橋のそばの舟",
+      "輪郭のはっきりした動物や植物：鹿、イチョウの木"
+    ],
+    "poor": [
+      "同じものがたくさん並ぶ写真：並んだ自転車、ハトの群れなど（切り絵には一つの主役が必要です）",
+      "ネオンカラー、複雑なグラデーション、プラスチック風 3D を求める場合",
+      "年号を入れたいデザイン、にぎやかで詰め込んだ画面を求める場合"
+    ]
+  },
+  "ko": {
+    "name": "손 종이오리기 저널",
+    "tagline": "종이 주인공 하나와 앞·중간·뒤 종이 몇 겹, 정밀한 작은 글자로 사진을 손으로 오린 겹종이 작품으로 다시 만듭니다.",
+    "look": "핵심 주인공은 자르고 접고 겹치고 가려 만들어 그림 전체의 기준점으로 삼습니다. 사진 속 환경에서는 몇 가지만 골라 전경, 중경, 배경 종이 층으로 바꾸고, 크기 차이와 앞뒤 겹침, 넓은 여백으로 깊이를 나눕니다. 바탕은 따뜻한 아이보리나 연한 종이이며, 색은 사진에서 가져와 한정된 종이 색 묶음으로 만듭니다. 주색 하나, 어두운 구조색 하나, 밝은 층 몇 개, 아주 작은 강조색입니다. 카드는 고운 무광이며 종이 섬유, 깔끔한 절단면, 부드러운 접촉 그림자가 보입니다. 글자는 편집용 마이크로 타이포그래피로, 짧은 메인 제목(종이를 오려 만든 글자도 좋습니다)에 아주 작은 대상 이름, 장소, 번호, 방향어, 짧은 메모를 두세 묶음에서 네 묶음 곁들이고 연도는 쓰지 않으며, 종이 층의 가장자리나 음의 공간을 따라 놓습니다.",
+    "traits": [
+      "앞·중간·뒤 종이 층",
+      "따뜻한 아이보리",
+      "무광 종이",
+      "마이크로 타이포그래피",
+      "절제"
+    ],
+    "good": [
+      "층이 분명한 풍경: 먼 산, 호수와 가까운 나무, 숲속의 집 한 채",
+      "환경 속의 주인공 하나: 논두렁의 사람, 지붕 위 고양이, 부두 옆 배",
+      "윤곽이 뚜렷한 동물과 식물: 사슴, 은행나무"
+    ],
+    "poor": [
+      "같은 것이 여러 번 반복되는 사진: 늘어선 자전거, 비둘기 떼(종이 작품에는 핵심 주인공 하나가 필요합니다)",
+      "네온 색, 복잡한 그라데이션, 플라스틱 3D를 원하는 경우",
+      "연도를 표시해야 하거나 북적이고 꽉 찬 화면을 원하는 디자인"
+    ]
+  },
+  "ar": {
+    "name": "دفتر قص الورق اليدوي",
+    "tagline": "يعيد صنع الصورة ورقاً مقصوصاً بطبقات: عنصر ورقي واحد وطبقات قليلة أمامية ووسطى وخلفية وكتابة صغيرة دقيقة.",
+    "look": "يُقصّ العنصر الأساسي ويُطوى ويُركَّب طبقاتٍ متداخلة ليكون مرتكز الصورة، ولا يُختار من المكان إلا القليل ليتحول إلى طبقات ورقية أمامية ووسطى وخلفية، تفصل بينها فروق الحجم والتداخل والفراغ الواسع. الأساس ورق عاجي دافئ أو فاتح، وتتحول ألوان الصورة إلى مجموعة محدودة من الأوراق: لون رئيسي ولون داكن للبنية وبضع طبقات فاتحة ولمسة إبراز صغيرة. الورق المقوّى ناعم مطفأ، تظهر فيه الألياف وحواف القص الحادة والظلال الناعمة عند التلامس. النص منظومة طباعية تحريرية دقيقة: عنوان رئيسي قصير يمكن أن يُقصّ هو نفسه من الورق، ومعه من مجموعتين إلى أربع مجموعات صغيرة جداً من الأسماء أو الأماكن أو الأرقام أو الاتجاهات أو الملاحظات الموجزة، بلا سنة، على حواف الطبقات أو في الفراغ السلبي.",
+    "traits": [
+      "طبقات أمامية ووسطى وخلفية",
+      "عاجي دافئ",
+      "ورق مطفأ",
+      "طباعة دقيقة",
+      "اقتصاد"
+    ],
+    "good": [
+      "مناظر واضحة الطبقات: تلال بعيدة، بحيرة وأشجار قريبة، بيت بين الأشجار",
+      "عنصر واحد في مكانه: شخص على ممر بين الحقول، قطة على سطح، قارب قرب رصيف",
+      "حيوانات ونباتات بحدود قوية: غزال، شجرة جنكة"
+    ],
+    "poor": [
+      "صور يتكرر فيها الشيء نفسه مرات كثيرة، كصف دراجات أو سرب حمام، إذ يحتاج العمل إلى عنصر أساسي واحد",
+      "طلب ألوان نيون أو تدرجات معقدة أو مظهر بلاستيكي ثلاثي الأبعاد",
+      "تصاميم يجب أن تحمل سنة، أو تريد صورة مزدحمة ممتلئة"
+    ]
+  }
+}
